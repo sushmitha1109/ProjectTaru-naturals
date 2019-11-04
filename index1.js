@@ -4,7 +4,7 @@
       $.ajax({  
         url:"index.js",  
         method:"POST",  
-        data:{gender:gender},  
+        data:{thing},  
         success:function(){  
              $(".result").val(final);  
         }  
