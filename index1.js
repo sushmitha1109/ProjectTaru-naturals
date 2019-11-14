@@ -1,15 +1,27 @@
  $(document).ready(function () {
-   $("input[type='radio']").click(function(){
-     var final = $("input[name='item1']:checked").val();
-      $.ajax({  
-        url:"index.js",  
-        method:"POST",  
-        data:{thing},  
-        success:function(){  
-             $(".result").val(final);  
-        }  
-   });  
+   var a = 0 ;
+    $('#adds').click(function add() {
+       a++;
+    $("#noofproducts").val(a);
+    });
+
+    $('#subs').click(function add() {
+      a--;
+   $("#noofproducts").val(a);
+
+});
+ });
+  //     $.ajax({  
+  //      url: "/data",
+  //      method: "POST",
+  //      data: {
+  //        item: final
+  //         },
+  // success: function() {
+  //   $(".result").val(final);
+  // }
+  
+
     //   localStorage.setItem(textValue,final);
     //   document.getElementById("blackriceqty").innerHTML=localStorage.getItem(textValue);
-     });
-     });
+    

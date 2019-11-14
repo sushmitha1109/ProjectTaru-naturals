@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <head>
     <title>
         HOME PAGE
@@ -13,8 +13,8 @@
     <link rel="stylesheet" type="css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="index .js"></script>
     <script src="index1.js"></script>
-    <script src="index.js"></script>
 </head>
 <body>  
     <div class="main_section text-center mt-5">
@@ -25,74 +25,28 @@
                 <div class="col-sm-4">
                     <img src="img/Taruproduct.png" alt="">
                   <bold><p>Black Rice</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="blackrice1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="blackrice2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="blackrice3kg" />3 KG @ Rs.550<br>
+                  <input type="button" value="-" id="subs" class="btn btn-default " />
+                  <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
+                  <input type="button" value="+" id="adds" class="btn btn-default" />
                 </div>
                 <div class="col-sm-4">
                         <img src="img/Taruproduct.png" alt="">
                     <bold><p>JaggeryPowder</p></bold>
-                    <input type="radio" name='item1' value='100 Sachets @ Rs.199' data-id="JaggeryPowder1kg" />100 Sachets @ Rs.199<br>
-                    <input type="radio" name='item1' value='200 Sachets @ Rs.390' data-id="JaggeryPowder2kg" />200 Sachets @ Rs.390<br>
-                    <input type="radio" name='item1' value='300 Sachets @ Rs.550' data-id="JaggeryPowder3kg" />300 Sachets @ Rs.550<br>
+                    <input type="button" value="-" id="subs" class="btn btn-default " />
+                    <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
+                    <input type="button" value="+" id="adds" class="btn btn-default" />
                 </div>
                 <div class="col-sm-4">
                         <img src="img/Taruproduct.png" alt="">
                     <bold><p>ForestHoney</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="ForestHoney1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="ForestHoney2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="ForestHoney3kg" />3 KG @ Rs.550<br>
+                    <input type="button" value="-" id="subs" class="btn btn-default " />
+                    <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
+                    <input type="button" value="+" id="adds" class="btn btn-default" />
                 </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Desi Tuvar Dal</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="blackrice1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="blackrice2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="blackrice3kg" />3 KG @ Rs.550<br>
-                </div>
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Yellow Moong Dal</p></bold>
-                    <input type="radio" name='item1' value='100 Sachets @ Rs.199' data-id="JaggeryPowder1kg" />100 Sachets @ Rs.199<br>
-                    <input type="radio" name='item1' value='200 Sachets @ Rs.390' data-id="JaggeryPowder2kg" />200 Sachets @ Rs.390<br>
-                    <input type="radio" name='item1' value='300 Sachets @ Rs.550' data-id="JaggeryPowder3kg" />300 Sachets @ Rs.550<br>
-                </div>
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Green Moong Dal</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="ForestHoney1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="ForestHoney2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="ForestHoney3kg" />3 KG @ Rs.550<br>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Turmeric Latte</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="blackrice1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="blackrice2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="blackrice3kg" />3 KG @ Rs.550<br>
-                </div>
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Amaranth Pop</p></bold>
-                    <input type="radio" name='item1' value='100 Sachets @ Rs.199' data-id="JaggeryPowder1kg" />100 Sachets @ Rs.199<br>
-                    <input type="radio" name='item1' value='200 Sachets @ Rs.390' data-id="JaggeryPowder2kg" />200 Sachets @ Rs.390<br>
-                    <input type="radio" name='item1' value='300 Sachets @ Rs.550' data-id="JaggeryPowder3kg" />300 Sachets @ Rs.550<br>
-                </div>
-                <div class="col-sm-4">
-                        <img src="img/Taruproduct.png" alt="">
-                    <bold><p>Roselle Tea</p></bold>
-                    <input type="radio" name='item1' value='1 KG @ Rs.199' data-id="ForestHoney1kg" />1 KG @ Rs.199<br>
-                    <input type="radio" name='item1' value='2 KG @ Rs.390' data-id="ForestHoney2kg" />2 KG @ Rs.390<br>
-                    <input type="radio" name='item1' value='3 KG @ Rs.550' data-id="ForestHoney3kg" />3 KG @ Rs.550<br>
-                </div>
-            </div>
+            </div>   
         </form>
+ 
         <div class="res mt-5 mb-5">
-        <input type="text" name="thing"  class="result">
         <a href="home2.html" id="next" class="btn btn-primary" role="button">Next</a>
         </div>
         <div class="footer text-center mt-5 mb-5">
@@ -103,5 +57,6 @@
             <div class="footer2 mt-5 mb-5">
             <p>©2019 by Taru Naturals.</p>    
             </div>
-</body>
+        </div>
+</body>  
 </html>
