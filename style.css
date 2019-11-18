@@ -1,3 +1,16 @@
-.form-group{
-    width: 60%
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: rgba(28, 63, 204, 0.308);
+    color: #fff;
+    transition: all 0.3s;
 }
