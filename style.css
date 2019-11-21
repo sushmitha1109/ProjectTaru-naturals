@@ -1,16 +1,11 @@
-.wrapper {
-    display: flex;
-    width: 100%;
-}
-
-#sidebar {
-    width: 250px;
+ .sidemenu {
+    height: 100%;
+    width: 200px;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
-    height: 100vh;
-    z-index: 999;
-    background: rgba(28, 63, 204, 0.308);
-    color: #fff;
-    transition: all 0.3s;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }

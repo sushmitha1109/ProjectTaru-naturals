@@ -10,17 +10,7 @@
    $("#noofproducts").val(a);
 
 });
- });
-  //     $.ajax({  
-  //      url: "/data",
-  //      method: "POST",
-  //      data: {
-  //        item: final
-  //         },
-  // success: function() {
-  //   $(".result").val(final);
-  // }
-  
+}); 
 
     //   localStorage.setItem(textValue,final);
     //   document.getElementById("blackriceqty").innerHTML=localStorage.getItem(textValue);

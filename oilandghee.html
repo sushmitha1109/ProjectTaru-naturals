@@ -13,57 +13,70 @@
     <link rel="stylesheet" type="css" href="style.css">
 </head>
 <body>
-     <!-- heirloomrice session -->
-    <div class="container text-center">
+     <!-- oil and ghee session -->
+     <div class="row">
+            <div class="col-sm-2">
+             <div class="sidebar-menu"></div>
+            </div>
+           <div class="col-sm-10">
+           <div class="container text-center">
            <img src="img/logo.jpeg">
            <h5 class="display-2 mt-5 mb-5">Subscription Box</h5> 
-           <h3 class="mb-5">Your subscription box looks sumptuous. Review your order now!</h3> 
+           <h2><div class="mt-3">What essentials would you need?</h2> 
            <form>
            <div class="form-group">
            <div class="row">
                <div class="col-sm-3">
                 <img src="img/Taruproduct.png" alt="" >
-                <bold><p>Gir Cow Ghee</p></bold>
+                <input type="checkbox" value="" id="products"><br>
+                <p>Gir Cow Ghee </p>
                 <input type="button" value="-" id="subs" class="btn btn-default " />
                 <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
                 <input type="button" value="+" id="adds" class="btn btn-default" />
                </div>
                <div class="col-sm-3">
                 <img src="img/GHEE.jpg" alt="" height="150" width="150"> 
-                <bold><p>Desi Cow Ghee</p></bold>
+                <input type="checkbox" value=""><br>
+                <p>Desi Cow Ghee</p>
                 <input type="button" value="-" id="subs" class="btn btn-default " />
                 <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
                 <input type="button" value="+" id="adds" class="btn btn-default" />  
                </div>
                <div class="col-sm-3">
                 <img src="img/COCONUT OIL.jpg" alt="" height="150" width="150">
-                <bold><p>Cold Pressed Coconut Oil</p></bold>
+                <input type="checkbox" value=""><br>
+                <p>Cold Pressed Coconut Oil</p>
                 <input type="button" value="-" id="subs" class="btn btn-default " />
                 <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
                 <input type="button" value="+" id="adds" class="btn btn-default" /> 
                </div>
                <div class="col-sm-3">
                 <img src="img/GROUNDNUT OIL.jpg" alt="" height="150" width="150">
-                <bold><p>Cold Pressed Groundnut Oil</p></bold>
+                <input type="checkbox" value=""><br>
+                <p>Cold Pressed Groundnut Oil</p>
                 <input type="button" value="-" id="subs" class="btn btn-default " />
                 <input type="text"  class="onlyNumber form-control" id="noofproducts" value="" name="noofproducts" />
                 <input type="button" value="+" id="adds" class="btn btn-default" />
               </div>
            </div>
-           <form>     
+           <form>    
+                <a href="billing.html" onclick="myFunction()" id="allproducts" class="btn btn-primary" role="button">Next</a> 
     </div>
     <div class="footer text-center mt-5 mb-5">
             <i class="fa fa-facebook-square" style="font-size:24px"></i>
             <i class="fa fa-linkedin-square" style="font-size:24px"></i>
             <i class="fa fa-twitter-square" style="font-size:24px"></i>
     </div>
-    <div class="footer2 mt-5 mb-5">
+    <div class="footer2 text-center mt-5 mb-5">
         <p>©2019 by Taru Naturals.</p>    
     </div>
     </div>
+    </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
     <script src="index1.js"></script>
+    <script src="headerandfooter.js"></script>
 </body>
 <html>
